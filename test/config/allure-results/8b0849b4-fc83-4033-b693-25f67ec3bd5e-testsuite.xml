@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603133194553' stop='1603133222889'>
+    <name>Open the Pinpoint Viewer home page</name>
+    <title>Open the Pinpoint Viewer home page</title>
+    <test-cases>
+        <test-case start='1603133194831' status='passed' stop='1603133203180'>
+            <name>User should able to I agree the EULA popup</name>
+            <title>User should able to I agree the EULA popup</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='09f8863a-1bf6-4275-801f-38497903135f-attachment.png' type='image/png' size='75020'/>
+            </attachments>
+        </test-case>
+        <test-case start='1603133203181' status='passed' stop='1603133215115'>
+            <name>Open Manual and verify Authoring icon is displaying</name>
+            <title>Open Manual and verify Authoring icon is displaying</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6293a72c-2fe2-4001-ac1c-68884c41368d-attachment.png' type='image/png' size='106967'/>
+            </attachments>
+        </test-case>
+        <test-case start='1603133215115' status='passed' stop='1603133221360'>
+            <name>Verify is able to click Authoring icon and Auhtoring mode confirmation pop</name>
+            <title>Verify is able to click Authoring icon and Auhtoring mode confirmation pop</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e28b9aa5-215e-4df0-9944-eba9e808c568-attachment.png' type='image/png' size='183204'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

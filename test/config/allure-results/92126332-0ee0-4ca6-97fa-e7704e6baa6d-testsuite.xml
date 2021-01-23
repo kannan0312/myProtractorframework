@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603266028964' stop='1603266143773'>
+    <name>Open the Pinpoint Viewer home page</name>
+    <title>Open the Pinpoint Viewer home page</title>
+    <test-cases>
+        <test-case start='1603266029410' status='passed' stop='1603266038167'>
+            <name>User should able to I agree the EULA popup</name>
+            <title>User should able to I agree the EULA popup</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7dd9f2a0-0b7c-4842-a372-ae86875f6522-attachment.png' type='image/png' size='82784'/>
+            </attachments>
+        </test-case>
+        <test-case start='1603266038167' status='passed' stop='1603266054066'>
+            <name>Open Manual and verify Authoring icon is displaying</name>
+            <title>Open Manual and verify Authoring icon is displaying</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='903a4912-bcb1-4178-9ca1-a07d8937315c-attachment.png' type='image/png' size='106941'/>
+            </attachments>
+        </test-case>
+        <test-case start='1603266054067' status='failed' stop='1603266138352'>
+            <name>Verify is able to click Authoring icon and Auhtoring mode confirmation pop</name>
+            <title>Verify is able to click Authoring icon and Auhtoring mode confirmation pop</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1832308a-7068-4005-9db2-1e6440033c17-attachment.png' type='image/png' size='183568'/>
+            </attachments>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+                    at Timeout._onTimeout (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

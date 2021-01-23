@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603136278212' stop='1603136301691'>
+    <name>Open Pinpoint &amp; Navigate to ACM home page</name>
+    <title>Open Pinpoint &amp; Navigate to ACM home page</title>
+    <test-cases>
+        <test-case start='1603136278849' status='passed' stop='1603136287036'>
+            <name>User should able to I agree the EULA popup</name>
+            <title>User should able to I agree the EULA popup</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7cabbfb9-2ec2-4bae-9f06-55e8c9d1c97c-attachment.png' type='image/png' size='80137'/>
+            </attachments>
+        </test-case>
+        <test-case start='1603136287036' status='passed' stop='1603136291227'>
+            <name>should able to switch to ACM home page in New Tab</name>
+            <title>should able to switch to ACM home page in New Tab</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='374c18c3-39a8-4e31-82b5-d1d9d8ccd963-attachment.png' type='image/png' size='100301'/>
+            </attachments>
+        </test-case>
+        <test-case start='1603136291227' status='passed' stop='1603136293053'>
+            <name>Go to Privileges page</name>
+            <title>Go to Privileges page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4ab0e183-5567-4eff-85c1-35c38919f3d7-attachment.png' type='image/png' size='41477'/>
+            </attachments>
+        </test-case>
+        <test-case start='1603136293053' status='passed' stop='1603136296725'>
+            <name>Navigate to Privilage > Role > select rr-author Role</name>
+            <title>Navigate to Privilage > Role > select rr-author Role</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b98fb502-5ed7-42b7-8d2b-28e71db84239-attachment.png' type='image/png' size='83189'/>
+            </attachments>
+        </test-case>
+        <test-case start='1603136296726' status='passed' stop='1603136300246'>
+            <name>Verify/Enable rr-author role user have "can author content" read permission</name>
+            <title>Verify/Enable rr-author role user have "can author content" read permission</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f956d219-283b-4603-b344-4f08d03ad83c-attachment.png' type='image/png' size='99591'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

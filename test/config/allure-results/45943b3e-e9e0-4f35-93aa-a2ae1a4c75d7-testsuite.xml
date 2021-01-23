@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603265788281' stop='1603265826281'>
+    <name>Open the Pinpoint Viewer home page</name>
+    <title>Open the Pinpoint Viewer home page</title>
+    <test-cases>
+        <test-case start='1603265811587' status='passed' stop='1603265819212'>
+            <name>should able to log into application</name>
+            <title>should able to log into application</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a060b7ad-6e3d-4cd5-a876-e40ba2709b89-attachment.png' type='image/png' size='8745'/>
+            </attachments>
+        </test-case>
+        <test-case start='1603265819214' status='passed' stop='1603265824258'>
+            <name>User should able to I agree the EULA popup</name>
+            <title>User should able to I agree the EULA popup</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='34a193aa-fe13-44c7-a5a6-dc8419230d28-attachment.png' type='image/png' size='75073'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

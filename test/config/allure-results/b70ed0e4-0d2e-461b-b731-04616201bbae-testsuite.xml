@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1605031805539' stop='1605031832126'>
+    <name>Open Pinpoint &amp; Navigate to ACM home page</name>
+    <title>Open Pinpoint &amp; Navigate to ACM home page</title>
+    <test-cases>
+        <test-case start='1605031806054' status='failed' stop='1605031816800'>
+            <name>User should able to I agree the EULA popup</name>
+            <title>User should able to I agree the EULA popup</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fe5bad84-d33f-4d34-81bf-491ff7439367-attachment.png' type='image/png' size='74725'/>
+            </attachments>
+            <failure>
+                <message>Failed: Element is taking too long to Visible in the DOM
+                Wait timed out after 5016ms</message>
+                <stack-trace>TimeoutError: Element is taking too long to Visible in the DOM
+                Wait timed out after 5016ms
+                    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2201:17
+                    at ManagedPromise.invokeCallback_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: Element is taking too long to Visible in the DOM
+                    at scheduleWait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+                    at ControlFlow.wait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+                    at Driver.wait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+                    at run (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+                    at ProtractorBrowser.to.&lt;computed> [as wait] (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+                    at common.waitForElementClickable (D:\myTestAutoFramework\test\e2e\commonActions.js:36:17)
+                    at commonLibrary.handleEulapop (D:\myTestAutoFramework\test\e2e\commonLibraries.js:20:16)
+                    at UserContext.&lt;anonymous> (D:\myTestAutoFramework\test\e2e\C002_VerifyAuthoringACM_permission.js:32:17)
+                    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                From: Task: Run it("User should able to I agree the EULA popup") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+                    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+                    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+                    at ControlFlow.emit (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+                    at ControlFlow.shutdown_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+                    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (D:\myTestAutoFramework\test\e2e\C002_VerifyAuthoringACM_permission.js:30:5)
+                    at addSpecsToSuite (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (D:\myTestAutoFramework\test\e2e\C002_VerifyAuthoringACM_permission.js:15:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+                    at Module.load (internal/modules/cjs/loader.js:986:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:879:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1605031816801' status='passed' stop='1605031821438'>
+            <name>should able to switch to ACM home page in New Tab</name>
+            <title>should able to switch to ACM home page in New Tab</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7d6d580a-5e52-4aa1-9d0f-205f631906c5-attachment.png' type='image/png' size='115316'/>
+            </attachments>
+        </test-case>
+        <test-case start='1605031821438' status='passed' stop='1605031823183'>
+            <name>Go to Privileges page</name>
+            <title>Go to Privileges page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f48db85b-ecf2-4012-984a-3f130a342471-attachment.png' type='image/png' size='41477'/>
+            </attachments>
+        </test-case>
+        <test-case start='1605031823183' status='passed' stop='1605031826935'>
+            <name>Navigate to Privilage > Role > select rr-author Role</name>
+            <title>Navigate to Privilage > Role > select rr-author Role</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4a9b3a6b-0288-4306-90cb-cd1cdea389bc-attachment.png' type='image/png' size='85604'/>
+            </attachments>
+        </test-case>
+        <test-case start='1605031826936' status='passed' stop='1605031830538'>
+            <name>Verify/Enable rr-author role user have "can author content" read permission</name>
+            <title>Verify/Enable rr-author role user have "can author content" read permission</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c2198fc6-96be-4b87-8a12-fcc70da2bd32-attachment.png' type='image/png' size='101923'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

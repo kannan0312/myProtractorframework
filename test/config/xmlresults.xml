@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="6" tests="10" time="152.931">
+ <testsuite name="Open the Pinpoint Viewer home page" timestamp="2020-11-10T23:39:23" hostname="localhost" time="41.734" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Open the Pinpoint Viewer home page" name="should able to log into application" time="7.796" />
+  <testcase classname="Open the Pinpoint Viewer home page" name="User should able to I agree the EULA popup" time="6.931">
+   <failure type="exception" message="Failed: Element is taking too long to Visible in the DOM
+Wait timed out after 5000ms"><![CDATA[TimeoutError: Element is taking too long to Visible in the DOM
+Wait timed out after 5000ms
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at ManagedPromise.invokeCallback_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+From: Task: Element is taking too long to Visible in the DOM
+    at scheduleWait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at Driver.wait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+    at ProtractorBrowser.to.<computed> [as wait] (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+    at common.waitForElementClickable (D:\myTestAutoFramework\test\e2e\commonActions.js:36:17)
+    at commonLibrary.handleEulapop (D:\myTestAutoFramework\test\e2e\commonLibraries.js:20:16)
+    at UserContext.<anonymous> (D:\myTestAutoFramework\test\e2e\C001_OpenPinpoint.spec.js:35:13)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+From: Task: Run it("User should able to I agree the EULA popup") in control flow
+    at UserContext.<anonymous> (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (D:\myTestAutoFramework\test\e2e\C001_OpenPinpoint.spec.js:33:3)
+    at addSpecsToSuite (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (D:\myTestAutoFramework\test\e2e\C001_OpenPinpoint.spec.js:14:1)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Open Pinpoint &amp; Navigate to ACM home page" timestamp="2020-11-10T23:40:05" hostname="localhost" time="26.614" errors="0" tests="5" skipped="0" disabled="0" failures="1">
+  <testcase classname="Open Pinpoint &amp; Navigate to ACM home page" name="User should able to I agree the EULA popup" time="10.747">
+   <failure type="exception" message="Failed: Element is taking too long to Visible in the DOM
+Wait timed out after 5016ms"><![CDATA[TimeoutError: Element is taking too long to Visible in the DOM
+Wait timed out after 5016ms
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at ManagedPromise.invokeCallback_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+From: Task: Element is taking too long to Visible in the DOM
+    at scheduleWait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at Driver.wait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+    at ProtractorBrowser.to.<computed> [as wait] (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+    at common.waitForElementClickable (D:\myTestAutoFramework\test\e2e\commonActions.js:36:17)
+    at commonLibrary.handleEulapop (D:\myTestAutoFramework\test\e2e\commonLibraries.js:20:16)
+    at UserContext.<anonymous> (D:\myTestAutoFramework\test\e2e\C002_VerifyAuthoringACM_permission.js:32:17)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+From: Task: Run it("User should able to I agree the EULA popup") in control flow
+    at UserContext.<anonymous> (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (D:\myTestAutoFramework\test\e2e\C002_VerifyAuthoringACM_permission.js:30:5)
+    at addSpecsToSuite (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (D:\myTestAutoFramework\test\e2e\C002_VerifyAuthoringACM_permission.js:15:1)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Open Pinpoint &amp; Navigate to ACM home page" name="should able to switch to ACM home page in New Tab" time="4.637" />
+  <testcase classname="Open Pinpoint &amp; Navigate to ACM home page" name="Go to Privileges page" time="1.745" />
+  <testcase classname="Open Pinpoint &amp; Navigate to ACM home page" name="Navigate to Privilage &gt; Role &gt; select rr-author Role" time="3.753" />
+  <testcase classname="Open Pinpoint &amp; Navigate to ACM home page" name="Verify/Enable rr-author role user have &quot;can author content&quot; read permission" time="3.602" />
+ </testsuite>
+ <testsuite name="Open the Pinpoint Viewer home page" timestamp="2020-11-10T23:40:32" hostname="localhost" time="84.583" errors="0" tests="3" skipped="0" disabled="0" failures="4">
+  <testcase classname="Open the Pinpoint Viewer home page" name="User should able to I agree the EULA popup" time="10.991">
+   <failure type="exception" message="Failed: Element is taking too long to Visible in the DOM
+Wait timed out after 5214ms"><![CDATA[TimeoutError: Element is taking too long to Visible in the DOM
+Wait timed out after 5214ms
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at ManagedPromise.invokeCallback_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+From: Task: Element is taking too long to Visible in the DOM
+    at scheduleWait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at Driver.wait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+    at ProtractorBrowser.to.<computed> [as wait] (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+    at common.waitForElementClickable (D:\myTestAutoFramework\test\e2e\commonActions.js:36:17)
+    at commonLibrary.handleEulapop (D:\myTestAutoFramework\test\e2e\commonLibraries.js:20:16)
+    at UserContext.<anonymous> (D:\myTestAutoFramework\test\e2e\C003_VerifyAuthoringBtnPinpoint.js:31:17)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+From: Task: Run it("User should able to I agree the EULA popup") in control flow
+    at UserContext.<anonymous> (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (D:\myTestAutoFramework\test\e2e\C003_VerifyAuthoringBtnPinpoint.js:29:5)
+    at addSpecsToSuite (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (D:\myTestAutoFramework\test\e2e\C003_VerifyAuthoringBtnPinpoint.js:14:1)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Open the Pinpoint Viewer home page" name="Open Manual and verify Authoring icon is displaying" time="62.207">
+   <failure type="exception" message="Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL."><![CDATA[Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]]>
+   </failure>
+   <failure type="exception" message="Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL."><![CDATA[Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+    at Timeout._onTimeout (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Open the Pinpoint Viewer home page" name="Verify is able to click Authoring icon and Auhtoring mode confirmation pop" time="7.649">
+   <failure type="exception" message="Failed: Element is taking too long to Visible in the DOM
+Wait timed out after 5478ms"><![CDATA[TimeoutError: Element is taking too long to Visible in the DOM
+Wait timed out after 5478ms
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at ManagedPromise.invokeCallback_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+From: Task: Element is taking too long to Visible in the DOM
+    at scheduleWait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at Driver.wait (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+    at ProtractorBrowser.to.<computed> [as wait] (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+    at common.waitForElementClickable (D:\myTestAutoFramework\test\e2e\commonActions.js:36:17)
+    at UserContext.<anonymous> (D:\myTestAutoFramework\test\e2e\C003_VerifyAuthoringBtnPinpoint.js:71:16)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+From: Task: Run it("Verify is able to click Authoring icon and Auhtoring mode confirmation pop") in control flow
+    at UserContext.<anonymous> (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (D:\myTestAutoFramework\test\e2e\C003_VerifyAuthoringBtnPinpoint.js:69:5)
+    at addSpecsToSuite (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\mmariappan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (D:\myTestAutoFramework\test\e2e\C003_VerifyAuthoringBtnPinpoint.js:14:1)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
